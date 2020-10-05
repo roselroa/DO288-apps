@@ -21,7 +21,5 @@ RUN   chown -R 0 /opt/app-root && \
 
 EXPOSE 8080
 
-USER  1001
-
 # Run the fat JAR
 CMD   /opt/app-root/bin/run-app.sh
